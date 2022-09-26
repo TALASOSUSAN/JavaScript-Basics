@@ -194,7 +194,7 @@ var ourString = "I come first. " + "I come last. ";
 //another example
 var myStr = "This is the start. "+ "This is the end."
 
-//Conacatinating the string using +
+//Concatinating the string using +
 var ourString = "I come first. ";
  myStr += "I come second. ";
 
@@ -229,7 +229,7 @@ var someAdjective = " worthwhile"
 var myString = "Learning to code is ";
 myStr += someAdjective;
 
-//find length of String
+//find length of Stringg
 var firstNameLength = 0;
 var firstName = "Ada";
 
@@ -237,7 +237,108 @@ var firstName = "Ada";
 firstNameLength = firstName.length;
 
 
+//Setup
+var lastNameLength = 0;
+var lastName = "Joy";
 
+//only change  below this line
+lastNameLength = lastName.length;
+console.log(lastNameLength)
+
+
+
+//Bracket notation to find first Character in string
+var firstLetterOfFirstName ="";
+var firstName = "Sue";
+
+firstLetterOfFirstName =firstName [0];
+
+//setup
+var firstLetterOfFirstName ="";
+lastName ="Joy"
+
+firstLetterOfFirstName = lastName[0];
+console.log(firstLetterOfFirstName)
+
+
+//String Immutability
+//Strings are immutable which means they cannot be altered once created
+//can be changed
+//Setup
+
+var myStr = "Jello World";
+
+myStr = "Hello World";
+
+
+//The Bracket Notation to find Nth Character in String
+//0 is the first position
+//1 is always the second position
+var firstName = "Sue";
+var secondLetterOfFirstName = firstName[1];
+
+
+//setup
+var  lastName = "Joy";
+
+//only change code below this line
+var thirdLetterOfLastName = lastName[2];
+
+
+
+//Bracket Notation to Find Last Character in String
+var firstName ="Sue";
+var lastLetterOfLastName = firstName[firstName.length -1]
+
+//Setup
+var lastName = "Joy"
+
+//only change code below this line
+var lastLetterOfLastName = lastName[lastName.length -1];
+
+//Bracket Notation to find Nth-to=Last Character in String
+var firstName = "Sue";
+var thirdToLastLetterOfFirstName = firstName[firstName.length -3]
+
+//setup
+var lastName = "Joy";
+
+//only change code below this line
+var secondToLastLetterOfLastName = lastName;
+
+
+
+//Word Blanks
+function wordBlanks (myNoun, myAdjective, myVerb, myAdverb){
+  //code below this line
+  var result = "";
+  //your code above this line
+  return result;
+  result += "The "  + myAdjective + " "+ myNoun + " " + myVerb + " to the store "
+
+}
+// change the words here to test your function
+console.log(wordBlanks("dog", "small", "ran", "quickly"));
+console.log(wordBlanks("bike", "slow", "flew", "slowly"));
+
+
+//store  multiple values with arrays
+//array allows you to store several piece of data in one splace
+//it always starts and ends with the bracket to show the beggining and the endind of the array
+//element in Array is separated by a comma
+//also element can be any datatype
+
+var ourArray = ["Sue", 24];
+//only change code below this line.
+var myArray = ["Quinsy", 1]
+
+
+//Nested Arrays
+var ourArray = [["the universe", 42],["everything", 101010]];
+
+
+//only change code below this line
+var myArray = [["Bulls", 23],["white Sox",]];
 
 </script>
 </body>
