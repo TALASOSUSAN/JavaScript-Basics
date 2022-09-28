@@ -340,6 +340,81 @@ var ourArray = [["the universe", 42],["everything", 101010]];
 //only change code below this line
 var myArray = [["Bulls", 23],["white Sox",]];
 
+
+
+//Access Array Data with Indexes
+var ourArray = [50, 60, 70]
+var ourData = ourArray[0];// equals 50
+//setup
+var myArray = [50, 60, 70];
+
+
+//only change code below this line.
+var myData = myArray[0] 
+console.log(myData) //equals 50
+
+//Modify Array Data with Indexes
+var ourArray = [ 18, 64, 99];
+ourArray[1] = 45; // the new array is gonna be [18, 45, 99]
+
+//setup
+var myArray = [18, 64, 99]
+
+// only changecode below this line
+myArray[0] = 45;
+console.log(myArray) //[45, 64, 99]
+
+
+//Access ulti-Dimensional Arrays with indexes
+var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13,14]]
+
+ var myData = myArray[2][1];
+ console.log(myData)//equals to 8
+
+//Manipulate Arrays with Push()
+
+var ourArray = ["Stimpson", "J","cat"];
+ourArray.push(["happy", "joy"]);
+//ourArray now equals ["stimpson", "J", "cat", ['happy", "joy"]]
+
+
+//setup
+varmyArray =  [["John", 23], ["cat", 2]];
+
+//only myArray change code below this line.
+myArray.push(["dog", 3])
+
+
+//Manipulate Arrays with pop()
+var ourArray = [1,2,3];
+var removedFromOurArray = Array.pop();
+//reovedFromArray now equals 3, and ourArray now equals [1,2,] coz 3 is poped off
+
+//setup
+var myArray= [["john", 23],["cat", 2]];
+//only change code below this line
+var removedFromMyArray = removedFromMyArray = myArray.pop();
+console.log(myArray)// [["John", 23]]
+
+//Manipulate Arrays with shift function()
+//its very similar to the pop function except it removes the  first element of the array instead of the final element
+var ourArray = ["Stimpson", "J", ["cat"]];
+var removedFromOurArray = ourArray.shift();
+//removed removedFromOurArray now equals to "Stimpson" and ourArray now equals ["J",["cat"]]
+
+//setup
+ var myArray = [["John", 23], ["dog", 3]];
+
+ //only change code below this line.
+ var removedFromMyArray = myArray.shift();
+ //myArray is just going to equal ["dog",3] 
+ //and removedFromMyArray is going to equal["John", 23]
+
+
+
+
+
+
 </script>
 </body>
 </html>
