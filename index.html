@@ -501,10 +501,27 @@ myLocalScope();
 console.log(myVar);
 
 
+
 //Gobal vs Local Scope in Functions
 
+var outWear = "T-Shirt";
 
-  
+function myoutfit() {
+var outWear = "sweater";
+
+
+return outWear;
+
+
+}
+ console.log(myoutfit)
+
+ //return a value from a Function with return statement
+ function minusSeven (num) {
+  return num - 7;
+
+ }
+console.log(minusSeven(10));
 
 
 
