@@ -463,14 +463,14 @@ functionWithArgs(10, 5)//equals 15
 
 //Global Scope and Functions
 //scope refers to the visibility of the variables
-
+//Global Scope means they can be seen everywhere in your js code
 //Declare your Variables Here
-var myGlobal = 10;
+var myGlobal = 10; // since this is set out side the function, we can see it anywhere in the whole code even 
 
 
 function fun1(){
   //assign 5 to oopsGlobal here
-
+oopsGlobal = 5;
 }
 
 //only change code above this line
@@ -485,9 +485,27 @@ function fun2(){
 
   }
   console.log(output);
+}
+//fun1
+//fun2
+
+
+
+//Local Scope and Functions
+
+function myLocalScope() {
+var myVar = 5;
+console.log(myVar);
+}
+myLocalScope();
+console.log(myVar);
+
+
+//Gobal vs Local Scope in Functions
+
 
   
-}
+
 
 
 
